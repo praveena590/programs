@@ -602,6 +602,45 @@ A
 * * *
 * *
 *
-
+   PROGRAMS-30
+   
+   import java.util.*;
+ class Testcase
+  {
+    public static void main(String[] args)
+     {
+      Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+       char ch='A';
+      for(int i=4;i>=0;i--)
+       {
+        for(int j=0;j<=i;j++)
+         {
+          System.out.print((char)(ch+j));
+          }
+         System.out.println();
+        }
+        for(int i=2;i<=n;i++)
+       {
+        for(int j=0;j<i;j++)
+         {
+          System.out.print((char)(ch+j));
+          }
+         System.out.println();
+        }
+      }
+   }
+   OUTPUT:
+   C:\Users\praveena srividhya\OneDrive\Desktop\veena>java Testcase
+5
+ABCDE
+ABCD
+ABC
+AB
+A
+AB
+ABC
+ABCD
+ABCDE
 
                
